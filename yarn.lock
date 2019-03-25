@@ -6447,6 +6447,11 @@ normalize-url@^3.0.0:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
   integrity sha512-U+JJi7duF1o+u2pynbp2zXDW2/PADgC30f0GsHZtRh+HOcXHnw137TrNlyxxRvWW5fjKd3bcLHPxofWuCjaeZg==
 
+normalize.css@^8.0.1:
+  version "8.0.1"
+  resolved "http://registry.npm.taobao.org/normalize.css/download/normalize.css-8.0.1.tgz?cache=0&other_urls=http%3A%2F%2Fregistry.npm.taobao.org%2Fnormalize.css%2Fdownload%2Fnormalize.css-8.0.1.tgz#9b98a208738b9cc2634caacbc42d131c97487bf3"
+  integrity sha1-m5iiCHOLnMJjTKrLxC0THJdIe/M=
+
 npm-bundled@^1.0.1:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/npm-bundled/-/npm-bundled-1.0.6.tgz#e7ba9aadcef962bb61248f91721cd932b3fe6bdd"
@@ -7925,9 +7930,9 @@ react-dev-utils@^8.0.0:
     strip-ansi "5.0.0"
     text-table "0.2.0"
 
-react-dom@16.8.5:
+react-dom@^16.8.5:
   version "16.8.5"
-  resolved "http://registry.npm.taobao.org/react-dom/download/react-dom-16.8.5.tgz#b3e37d152b49e07faaa8de41fdf562be3463335e"
+  resolved "http://registry.npm.taobao.org/react-dom/download/react-dom-16.8.5.tgz?cache=0&other_urls=http%3A%2F%2Fregistry.npm.taobao.org%2Freact-dom%2Fdownload%2Freact-dom-16.8.5.tgz#b3e37d152b49e07faaa8de41fdf562be3463335e"
   integrity sha1-s+N9FStJ4H+qqN5B/fVivjRjM14=
   dependencies:
     loose-envify "^1.1.0"
@@ -7999,9 +8004,9 @@ react-scripts@2.1.8:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@16.8.5:
+react@^16.8.5:
   version "16.8.5"
-  resolved "http://registry.npm.taobao.org/react/download/react-16.8.5.tgz#49be3b655489d74504ad994016407e8a0445de66"
+  resolved "http://registry.npm.taobao.org/react/download/react-16.8.5.tgz?cache=0&other_urls=http%3A%2F%2Fregistry.npm.taobao.org%2Freact%2Fdownload%2Freact-16.8.5.tgz#49be3b655489d74504ad994016407e8a0445de66"
   integrity sha1-Sb47ZVSJ10UErZlAFkB+igRF3mY=
   dependencies:
     loose-envify "^1.1.0"
