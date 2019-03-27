@@ -17,7 +17,7 @@ export function signUp(username,password,successFn,errorFn){
   // 设置密码
   user.setPassword(password)
   user.signUp().then(function (loginedUser) {
-      let user=getUserFormAVUser(loginedUser)
+      let user=getUserFromAVUser(loginedUser)
       successFn.call(null,user)
   }, function (error) {
       errorFn.call(null,error)
@@ -25,7 +25,16 @@ export function signUp(username,password,successFn,errorFn){
   return undefined
 }
 
-function getUserFormAVUser(AVUser){
+export function getCurrentUser(){
+  let user=AV.User.current()
+  if(user){
+    return getUserFromAVUser(user)
+  }else{
+    return null
+  }
+}
+
+function getUserFromAVUser(AVUser){
   return {
     id:AVUser.id,
     ...AVUser.attributes
